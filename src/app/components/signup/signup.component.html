@@ -1,0 +1,14 @@
+<div class="card">
+<h4 class="card-header">Sign-up</h4>
+<div class='card-body'>
+<form [formGroup]="signupForm" (ngSubmit)="registerUser()">
+  <label for="name">Name: </label>
+  <input id="name" type="text" name="name" formControlName="name" placeholder='Enter Your Name'required><br><br>
+  <label for="email">Email: </label>
+  <input id="email" type="email" name="email" formControlName="email" placeholder='Enter your Email'required><br><br>
+  <label for="password">Password:</label>
+  <input  id="password" type="password"  name="password"formControlName="password" placeholder="Enter  Your Password" required><br><br>
+  <button type="submit" >sign up</button>
+  </form>
+</div>
+</div>

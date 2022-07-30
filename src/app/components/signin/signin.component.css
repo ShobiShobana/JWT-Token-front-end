@@ -1,0 +1,75 @@
+.card-header{
+    font-size: 30px;
+    font-family: 'Times New Roman', Times, serif;
+    border-bottom-style: solid;
+    border-bottom-width: thin;
+    padding: 5px;
+}
+
+.card{
+        padding: 16px;
+        position: relative;
+        /* border-style:groove; */
+        box-sizing: border-box;
+        width:40%;
+        background-color: #ccc; 
+        margin-left: 30%;
+        border-radius: 5px;
+
+} 
+label {
+display: block;
+font-family:'Times New Roman', Times, serif;
+font-weight:900;
+font-size: 20px;
+}
+input[type=email], input[type=password] {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-sizing: border-box;
+  }
+  button {
+    background-color: #81aff3;
+    color: white;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    cursor: pointer;
+    width: 40%;
+    margin-left:30%;
+    font-size: 16px;
+    border-radius: 5px;
+  }
+  
+  button:hover {
+    opacity: 0.8;
+  }
+  
+/* input, label {
+    display:block;
+
+}
+
+
+input[type=email], select {
+    width: 30%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+  }
+  input[type=password], select {
+    width: 30%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+  } */

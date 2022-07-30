@@ -1,0 +1,20 @@
+.navbar {
+
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    display: flex; 
+    background-color:grey;
+  }
+
+  .navbar a{
+    display: block;
+  color: white;
+  text-align: center;
+    padding: 14px 16px;
+    text-decoration:none;
+    /* border-left-width: thin; */
+  }
+ .navbar a:hover {
+    background-color: #111;
+  }
